@@ -8,8 +8,8 @@ import (
 /*no*/
 func AuthExample(t *testing.T) {
 	auth := AuthorizeNet{
-		Login:     "<YourLogin>", // xyzzy - from config file!
-		Key:       "<YourKey>",   // xyzzy - from call to NewAuthrizeNet ( host, Login, Key ) -- with option to read from JSON file
+		Login:     "<<<YourLogin>>>", // xyzzy - from config file!
+		Key:       "<<<YourKey>>>",   // xyzzy - from call to NewAuthrizeNet ( host, Login, Key ) -- with option to read from JSON file
 		DupWindow: 120,
 		TestMode:  true, // From Config File -- xyzzy
 	}
